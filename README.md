@@ -1,6 +1,6 @@
 # Vagrant Configuration for Kubernetes Lab
 
-This guide provides an overview of setting up and running a Kubernetes lab environment using Vagrant and QEMU/KVM (libvirt) on WSL (Windows Subsystem for Linux) with Windows 11.
+This guide provides an overview of setting up and running a lab environment using Vagrant and QEMU/KVM (libvirt) on WSL (Windows Subsystem for Linux) with Windows 11.
 
 ## Overview
 
