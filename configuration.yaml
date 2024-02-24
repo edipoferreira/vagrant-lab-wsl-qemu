@@ -1,0 +1,27 @@
+vagrant_api_version: "2"
+host_os: "generic/ubuntu2204"
+default_user: ubuntu
+
+
+servers:
+  control_planes:
+    control-plane-0:
+      memory: 8000
+      cpus: "4"
+      ip: "192.168.122.200"
+      root_disk_size: 200
+
+  workers_nodes:
+    worker-0:
+      memory: 4000
+      cpus: "4"
+      ip: "192.168.122.230"
+    worker-1:
+      memory: 4000
+      cpus: "4"
+      ip: "192.168.122.231"
+
+
+shell_commands: |
+  ls -ltra /tmp/ >> /tmp/lista.txt
+  date >> /tmp/lista.txt
